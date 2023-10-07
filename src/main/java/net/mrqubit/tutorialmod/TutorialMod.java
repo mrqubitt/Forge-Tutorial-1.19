@@ -14,6 +14,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.mrqubit.tutorialmod.block.ModBlocks;
 import net.mrqubit.tutorialmod.item.ModItems;
+import net.mrqubit.tutorialmod.painting.ModPaintings;
 import net.mrqubit.tutorialmod.villager.ModVillagers;
 import org.slf4j.Logger;
 
@@ -30,6 +31,7 @@ public class TutorialMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModVillagers.register(modEventBus);
+        ModPaintings.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
