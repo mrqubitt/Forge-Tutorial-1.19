@@ -1,5 +1,7 @@
 {
   "replace": false,
   "values": [
+    "tutorialmod:end_zircon_ore",
+    "tutorialmod:nether_zircon_ore"
   ]
 }

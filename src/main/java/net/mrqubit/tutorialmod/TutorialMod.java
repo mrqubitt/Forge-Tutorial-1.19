@@ -16,6 +16,8 @@ import net.mrqubit.tutorialmod.block.ModBlocks;
 import net.mrqubit.tutorialmod.item.ModItems;
 import net.mrqubit.tutorialmod.painting.ModPaintings;
 import net.mrqubit.tutorialmod.villager.ModVillagers;
+import net.mrqubit.tutorialmod.world.feature.ModConfiguredFeatures;
+import net.mrqubit.tutorialmod.world.feature.ModPlacedFeatures;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -32,6 +34,8 @@ public class TutorialMod
         ModBlocks.register(modEventBus);
         ModVillagers.register(modEventBus);
         ModPaintings.register(modEventBus);
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

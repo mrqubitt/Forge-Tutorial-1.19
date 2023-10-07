@@ -4,6 +4,8 @@
     "tutorialmod:zircon_ore",
     "tutorialmod:zircon_block",
     "tutorialmod:deepslate_zircon_ore",
-    "tutorialmod:jumpy_block"
+    "tutorialmod:jumpy_block",
+    "tutorialmod:end_zircon_ore",
+    "tutorialmod:nether_zircon_ore"
   ]
 }
