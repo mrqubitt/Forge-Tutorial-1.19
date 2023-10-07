@@ -18,5 +18,8 @@
 
   "entity.minecraft.villager.tutorialmod.jumpy_master": "Jumpy Master",
 
-  "ui.tutorialmod.eight_ball_more_info": "Right click to get a random number!"
+  "ui.tutorialmod.eight_ball_more_info": "Right click to get a random number!",
+
+  "key.category.tutorialmod.tutorial": "Tutorial Mod",
+  "key.tutorialmod.drişnk_water": "Drink Water"
 }
